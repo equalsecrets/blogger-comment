@@ -1,0 +1,56 @@
+yang mau aku ganti :
+#commentSelectorLabel {
+    margin-right: 10px;
+    color: white;
+    font-weight: 700;
+}
+.oJeWuf .snByac {color:white}
+.RDPZE .snByac {color:white}
+
+.e3Duub, 
+.e3Duub a, 
+.e3Duub a:hover, 
+.e3Duub a:link, 
+.e3Duub a:visited { 
+    color: white !important; 
+    background-color: transparent !important; 
+}
+
+.e3Duub textarea { /* Jika ada textarea dalam kontainer */
+    color: white !important; 
+    background-color: transparent !important; /* Untuk transparan */
+}
+
+.e3Duub { 
+    background-color: transparent !important; /* Menambahkan untuk kontainer */
+}
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Mengubah warna teks menjadi putih dan latar belakang menjadi transparan di semua elemen komentar
+    var commentElements = document.querySelectorAll('.e3Duub, .e3Duub a, .e3Duub a:hover, .e3Duub a:link, .e3Duub a:visited');
+    commentElements.forEach(function(element) {
+        element.style.color = "white"; // Mengubah warna teks menjadi putih
+        element.style.backgroundColor = "transparent"; // Mengubah latar belakang menjadi transparan
+    });
+
+    // Mengubah warna teks di kontainer komentar
+    var containerElements = document.querySelectorAll('.vRMGwf');
+    containerElements.forEach(function(container) {
+        container.style.color = "white"; // Mengubah warna teks menjadi putih
+    });
+
+    // Mengubah warna teks dan latar belakang di textarea
+    var textareas = document.querySelectorAll('textarea.KHxj8b');
+    textareas.forEach(function(textarea) {
+        textarea.style.color = "white"; // Mengubah warna teks menjadi putih
+        textarea.style.backgroundColor = "transparent"; // Mengubah latar belakang menjadi transparan
+    });
+
+    // Jika ada kontainer lain yang perlu diubah
+    var additionalContainers = document.querySelectorAll('.e3Duub');
+    additionalContainers.forEach(function(container) {
+        container.style.backgroundColor = "transparent"; // Mengubah latar belakang menjadi transparan
+    });
+});
+</script>
