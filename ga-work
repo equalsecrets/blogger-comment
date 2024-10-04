@@ -1,3 +1,9 @@
+ternyata pakai metode invert warna:
+#comment-editor {
+    filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(100%);
+    -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(100%);
+}
+
 yang mau aku ganti :
 #commentSelectorLabel {
     margin-right: 10px;
